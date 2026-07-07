@@ -15,11 +15,11 @@ export default function HeroCard({ item }: { item: NewsItem }) {
             priority
           />
         </div>
-        <h2 className="mt-5 font-serif-bn text-3xl font-bold leading-snug text-heading transition-colors group-hover:text-accent-foreground sm:text-4xl">
+        <h2 className="mt-5 font-serif-bn text-2xl font-bold leading-snug text-heading transition-colors group-hover:text-accent-foreground sm:text-3xl">
           {item.title}
         </h2>
       </Link>
-      <p className="mt-3 text-lg leading-relaxed text-body">{item.summary}</p>
+      <p className="mt-3 text-base leading-relaxed text-body">{item.summary}</p>
     </article>
   );
 }

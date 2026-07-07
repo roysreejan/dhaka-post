@@ -14,7 +14,7 @@ export default function ListCard({ item }: { item: NewsItem }) {
             className="object-cover transition-transform duration-300 group-hover:scale-105"
           />
         </div>
-        <h3 className="font-serif-bn text-lg font-semibold leading-snug text-heading transition-colors group-hover:text-accent-foreground sm:text-xl">
+        <h3 className="font-serif-bn text-base font-semibold leading-snug text-heading transition-colors group-hover:text-accent-foreground sm:text-lg">
           {item.title}
         </h3>
       </Link>

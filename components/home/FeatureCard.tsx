@@ -15,7 +15,7 @@ export default function FeatureCard({ item }: { item: NewsItem }) {
           />
         </div>
         <div>
-          <h3 className="font-serif-bn text-xl font-bold leading-snug text-heading transition-colors group-hover:text-accent-foreground sm:text-2xl">
+          <h3 className="font-serif-bn text-base font-medium leading-snug text-heading transition-colors group-hover:text-accent-foreground sm:text-2xl">
             {item.title}
           </h3>
           <p className="mt-2 leading-relaxed text-body">{item.summary}</p>
