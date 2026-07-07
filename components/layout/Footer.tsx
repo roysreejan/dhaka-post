@@ -5,7 +5,7 @@ import { FOOTER_LINKS } from "./nav-links";
 export default function Footer() {
   return (
     <footer className="mt-auto bg-footer">
-      <div className="mx-auto flex max-w-6xl flex-col items-center gap-5 px-4 py-10 text-center sm:px-6">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-4 py-10 text-center sm:px-6">
         <Logo className="text-2xl" />
 
         <nav>

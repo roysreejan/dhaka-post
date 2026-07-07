@@ -8,8 +8,8 @@ import { NAV_LINKS } from "./nav-links";
 export default function Header() {
   return (
     <header className="sticky top-0 z-20 border-b border-line bg-surface">
-      <div className="relative mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
-        <Logo className="text-3xl sm:text-4xl" />
+      <div className="relative mx-auto flex max-w-7xl items-center justify-between px-4 py-5 sm:px-6 sm:py-6">
+        <Logo className="text-4xl sm:text-5xl text-indigo-950" />
 
         <nav className="hidden lg:block">
           <ul className="flex items-center gap-8">
@@ -17,7 +17,7 @@ export default function Header() {
               <li key={i}>
                 <Link
                   href={link.href}
-                  className="text-lg font-medium text-body transition-colors hover:text-heading"
+                  className="text-lg font-normal text-body transition-colors hover:text-heading"
                 >
                   {link.label}
                 </Link>
