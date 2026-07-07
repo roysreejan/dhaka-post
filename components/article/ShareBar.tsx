@@ -24,7 +24,7 @@ export default function ShareBar({ title }: { title: string }) {
 
   return (
     <div className="mt-8 flex items-center justify-between gap-4 rounded bg-accent px-5 py-4">
-      <span className="font-medium text-heading">নিবন্ধটি শেয়ার করুন:</span>
+      <span className="font-semibold text-heading">নিবন্ধটি শেয়ার করুন:</span>
       <div className="flex items-center gap-3">
         <button
           type="button"
